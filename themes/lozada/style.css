@@ -1,0 +1,370 @@
+/*
+Theme Name: lozada
+
+*/
+
+@font-face {
+	font-family: 'Gotham-Book';
+	src: url('fonts/Gotham-Book.eot');
+	src: local('☺'), url('fonts/Gotham-Book.woff') format('woff'), url('fonts/Gotham-Book.ttf') format('truetype'), url('fonts/Gotham-Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {width: 100%;
+	margin: 0px;
+	background: #FBF9F9;
+	font-family: Gotham-Book;
+}
+
+#wrapper {width: 1060px;
+	margin: 0px auto;
+	background: #FBF9F9;
+}
+
+#linea {width: 100%;
+	height: 8px;
+	background: #39A3A3;
+	z-index: 90;
+}
+
+
+/*-------------- PÁGINA INICIAL --------------*/
+
+nav {width: 470px;
+	margin: 0px auto;
+}
+
+#mainlogo {width: 95%;
+	margin: 0px auto;
+	margin-top: 150px;
+}
+
+
+#mainmenu {width: 470px;
+	height: 35px;
+	margin: 0px auto;
+	margin-top: 50px;
+
+}
+
+#mainmenu ul {margin: 0px auto;
+	padding: 0px;
+	width: 490px;
+	height: 58px;
+}
+
+#mainmenu li {list-style: none;
+	display: inline;
+	padding: 20px;
+	float: left;
+}
+
+
+
+#mainmenu a:link {text-decoration: none;
+    color: #256C6C;
+  }
+
+  #mainmenu a:visited {color: #256C6C;}
+
+  #mainmenu a:hover {color: #4AC0C5;}
+
+  #lozadaprincipal {width: 80px;
+  	display: block;
+  	margin-top: 125px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+  .slider #about {width: 690px;
+  	float: left;
+  }
+  
+
+/*-------------- CATEGORIAS --------------*/
+
+/*sidemenu*/
+
+#sidebar {width: 180px;
+	float: left;
+}
+
+#logoside {width: 45px;
+	margin-top: 40px;
+}
+
+#sidemenu  {padding: 20px 0px 80px 0px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#sidemenu li {list-style: none;
+	padding-left: 0px;
+	padding: 10px 0px 0px 0px;
+	margin-top: 3px;
+	display: block;
+}
+
+#sidemenu a:link {text-decoration: none;
+    color: #256C6C;}
+
+#sidemenu a:visited {color: #256C6C;}
+
+#sidemenu a:hover {color: #4AC0C5;}
+
+
+
+
+/*titulo de página */
+
+#pagina {width: 880px;
+	float: left;
+	margin-top: 50px;
+}
+
+
+#pagina h1 {color: #256C6C;
+	margin: 50px 0px 0px 0px
+}
+
+
+/*imagen y descripcion*/
+
+#content {width: 880px;
+	float: left;
+	height: 570px;
+}
+
+#descripcion {width: 800px;
+	height: 150px;
+	background: #707A7E;
+	float: left;
+	position: relative;
+	margin-top: 420px;
+	opacity: 0.9;
+	z-index: 1;
+}
+
+
+#preview {
+	z-index: -1;
+}
+
+/*{z-index: -1;
+	position: absolute;
+	top: 120px;
+	left: 445px;
+}*/
+
+
+#descripcion h2 {font-size: 14pt;
+	color: #ffffff;
+	margin: 20px 0px 0px 20px;
+}
+
+#descripcion p {font-size: 11pt;
+	color: #ffffff;
+	margin: 15px 50px 0px 50px;
+}
+
+#descripcion a:link {color: #ffffff;
+	text-decoration: none;
+}
+
+#descripcion a:visited {color: #ffffff;}
+
+#descripcion a:hover {color: #4AC0C5;}
+
+
+/* -------------- PROYECTO ----------------- */
+
+#content h3 {margin-left: 20px;
+	margin-top: 100px;
+}
+
+#content p {margin-left: 130px}
+
+#descproy {width: 800px;
+	margin-left: 180px;
+
+}
+
+#descproy img {max-width: 800px;
+height: auto;}
+
+#tituloproyecto a: link {color: #256C6C;}
+
+#tituloproyecto a:visited {color: #ffffff;}
+
+#tituloproyecto a:hover {color: #4AC0C5;}
+
+
+/* -------------- LAPPING -------------- */
+
+
+	.imagen {width: 800px;
+	height: 570px;
+	position: relative;
+	float: left;
+	}
+
+	.imagen img {width: 100%;
+		height: 100%;
+	}
+
+.texto {position: absolute;
+	width: 100%:
+	bottom: 0px;
+	height: 100px;
+	background: xgray;
+	opacity: 0.8;
+	z-index: 100;
+	}
+
+
+/* ------------ ABOUT ------------- */
+
+#about {display: block;
+	width: 490px;
+	float: left;}
+
+#about p {margin-top: 80px;}
+
+ #fotofer {width: 160px;
+ 	height: auto;
+ 	float: left;
+ 	margin: 0px 0px 0px 0px;
+ }
+
+ #fotofer {margin: 0px;}
+
+ #about {margin: 80px 0px 0px 20px;
+ }
+
+ /* ------------ CONTACTO ------------- */
+
+#about {display: block;
+	width: 650px;
+	float: left;}
+
+ #fotofer {width: 160px;
+ 	float: left;
+ 	margin: 80px 0px 0px 0px;
+ }
+
+ #contacto {margin: 20px 0px 0px 0px;
+ 	font-size: 10pt;
+ }
+/* ------------ SLIDER MOTION ------------- */
+
+.slider {padding: 0px 0px 0px 0px;
+	float: left;
+	width: 800px;
+	height: 550px;
+}
+
+.kwicks {padding: 0px;}
+
+.kwicks {
+	width: 800px;
+    height: 550px;
+    }
+
+
+.kwicks ul {width: 800px}
+.kwicks li {
+    height: 550px;
+    /* overridden by kwicks but good for when JavaScript is disabled */
+    width: 150px;
+    margin-left: 0px;
+    float: left;
+    list-style: none;
+    }
+
+.kwicks li a {
+  	width: 100%;
+  	height: 100%;
+  	display: block;
+  }
+
+#panel-1 { background-image: url(images/anim_camaras.jpg); }
+#panel-2 { background-image: url(images/anim_centro.jpg);  }
+#panel-3 { background-image: url(images/demoreel.jpg);  }
+#panel-4 { background-image: url(images/vid_poema.jpg); }
+#panel-5 { background-image: url(images/royals.jpg); }
+#panel-6 {background-image: url(images/tela.jpg); }
+
+/* ------------ SLIDER GRAFICO ------------- */
+
+.slidergrafico {padding: 0px 0px 0px 0px;
+	float: left;
+	width: 800px;
+	height: 550px;
+}
+
+.kwicks {padding: 0px;}
+
+.kwicks {
+	width: 800px;
+    height: 550px;
+    }
+
+
+.kwicks ul {width: 800px}
+.kwicks li {
+    height: 550px;
+    /* overridden by kwicks but good for when JavaScript is disabled */
+    width: 150px;
+    margin-left: 2px;
+    float: left;
+    list-style: none;
+
+    }
+
+  .kwicks li a {
+  	width: 100%;
+  	height: 100%;
+  	display: block;
+  }
+
+.slidergrafico #panel-1 { background-image: url(images/graf_anton.jpg); }
+.slidergrafico #panel-2 { background-image: url(Images/internet.jpg);  }
+.slidergrafico #panel-3 { background-image: url(images/graf_metro.jpg);  }
+.slidergrafico #panel-4 { background-image: url(images/graf_ilust.jpg);  }
+
+/* ------------ SLIDER INTERACTIVO ------------- */
+
+.sliderinteractivo {padding: 0px 0px 0px 0px;
+	float: left;
+	width: 800px;
+	height: 550px;
+}
+
+.kwicks {padding: 0px;}
+
+.kwicks {
+	width: 800px;
+    height: 550px;
+    }
+
+
+.kwicks ul {width: 800px}
+.kwicks li {
+    height: 550px;
+    /* overridden by kwicks but good for when JavaScript is disabled */
+    width: 150px;
+    margin-left: 2px;
+    float: left;
+    list-style: none;
+    }
+
+.sliderinteractivo #panel-1 { background-image: url(images/inter_quet.jpg); }
+.slidergrafico #panel-2 { background-image: url(images/demoreel.jpg);  }
+.sliderinteractivo #panel-3 { background-image: url(images/mapping.jpg); }
+
+
+
+
